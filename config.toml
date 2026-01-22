@@ -1,0 +1,601 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil Dental Clinic"
+defaultContentLanguage = "en"
+
+[params]
+  [params.theme]
+    primary_color = "#0ea5e9"
+    secondary_color = "#1d4ed8"
+    accent_color = "#22c55e"
+    bg_color = "#ffffff"
+    bg_secondary = "#f8fafc"
+    text_color = "#0f172a"
+    text_light = "#475569"
+
+  [params.clinic]
+    name = "Dr. Michael Nabil Dental Clinic"
+    name_ar = "عيادة د. مايكل نبيل لطب الأسنان"
+    tagline = "Premium, gentle dental care you can trust"
+    tagline_ar = "رعاية أسنان فاخرة وهادئة يمكنك الوثوق بها"
+    headline = "Comfort-first dentistry • Modern technology • Trusted results"
+    headline_ar = "راحة المريض أولاً • أحدث التقنيات • نتائج موثوقة"
+    hero_image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    hero_image_alt = "Dental clinic brand image"
+
+  [params.booking]
+    primary_cta_text = "Book an Appointment"
+    primary_cta_text_ar = "احجز موعداً"
+    secondary_cta_text = "Call Now"
+    secondary_cta_text_ar = "اتصل الآن"
+    note = "Same-day emergency appointments when available."
+    note_ar = "نوفر مواعيد طوارئ في نفس اليوم حسب التوفر."
+    form_title = "Request an Appointment"
+    form_title_ar = "طلب حجز موعد"
+    form_subtitle = "Send your details and we will contact you."
+    form_subtitle_ar = "أرسل بياناتك وسنقوم بالتواصل معك."
+    field_name = "Full Name"
+    field_name_ar = "الاسم بالكامل"
+    field_phone = "Phone Number"
+    field_phone_ar = "رقم الهاتف"
+    field_service = "Service"
+    field_service_ar = "الخدمة"
+    field_message = "Notes"
+    field_message_ar = "ملاحظات"
+    submit_text = "Send on WhatsApp"
+    submit_text_ar = "إرسال عبر واتساب"
+    whatsapp_template = "Hello, I want to book an appointment.%0AName: {name}%0APhone: {phone}%0AService: {service}%0ANotes: {message}"
+
+  [[params.trust_badges]]
+    icon = "fa-shield-halved"
+    text = "Sterilization & safety protocols"
+    text_ar = "تعقيم وبروتوكولات أمان"
+
+  [[params.trust_badges]]
+    icon = "fa-face-smile"
+    text = "Comfort-focused, gentle approach"
+    text_ar = "راحة المريض ونهج لطيف"
+
+  [[params.trust_badges]]
+    icon = "fa-tooth"
+    text = "Comprehensive dental services"
+    text_ar = "خدمات أسنان متكاملة"
+
+  [[params.trust_badges]]
+    icon = "fa-star"
+    text = "Trusted by families in Zagazig"
+    text_ar = "ثقة عائلات الزقازيق"
+
+  # Hero Section
+  [params.hero]
+    name = "Dr. Michael Nabil"
+    tagline = "Founder Dentist"
+    graduation = "Premium dental clinic in Zagazig"
+    profile_image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    
+    [params.hero.current_position]
+      role = "Dentist"
+      clinic = "Dr. Michael Nabil Dental Clinic"
+
+  [params.seo]
+    title = "Trusted Dental Clinic in Zagazig | Dr. Michael Nabil"
+    title_ar = "عيادة أسنان موثوقة في الزقازيق | د. مايكل نبيل"
+    description = "Premium and trusted dental clinic offering gentle, modern dentistry in Zagazig. Book your appointment for checkups, cosmetic dentistry, crowns, root canal treatment, implants, and more."
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil Dental Clinic"
+    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
+    favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
+    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "family dentist",
+      "teeth cleaning",
+      "dental implants",
+      "orthodontics",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Michael Nabil",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "TRUSTED DENTAL CLINIC",
+      "PAIN-FREE DENTISTRY"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تنظيف الأسنان",
+      "زراعة الأسنان",
+      "تقويم الأسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. مايكل نبيل",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور مايكل نبيل",
+      "عيادة مايكل نبيل",
+      "عيادة اسنان الشرقية",
+      "مايكل نبيل اسنان",
+      "عيادة اسنان موثوقة",
+      "علاج بدون ألم"
+    ]
+
+  [params.schema]
+    street_address = "مستشفيات جامعة الزقازيق"
+    address_locality = "Zagazig"
+    address_region = "Ash Sharqia"
+    postal_code = ""
+    address_country = "EG"
+    opening_hours = [
+      "Sa-Th 10:00-22:00",
+      "Fr Closed"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      home = "Home"
+      services = "Services"
+      team = "Dental Team"
+      gallery = "Results"
+      reviews = "Reviews"
+      faq = "FAQ"
+      contact = "Contact"
+
+    [params.ui.home]
+      title = "Premium Dental Care"
+      subtitle = "Eye-comfort design, modern technology, and trusted results"
+
+    [params.ui.services]
+      title = "Dental Services"
+      subtitle = "Comprehensive care for smiles of all ages"
+
+    [params.ui.team]
+      title = "Meet Our Dental Team"
+      subtitle = "Experienced, gentle, and patient-focused"
+
+    [params.ui.gallery]
+      title = "Treatment Results"
+      subtitle = "Before & after examples and real cases"
+
+    [params.ui.reviews]
+      title = "Patient Reviews"
+      subtitle = "Real experiences from real patients"
+
+    [params.ui.faq]
+      title = "Frequently Asked Questions"
+      subtitle = "Clear answers before your visit"
+
+    [params.ui.contact]
+      title = "Book Your Appointment"
+      subtitle = "Call, WhatsApp, or visit the clinic"
+      follow_me_title = "Follow Us"
+
+    [params.ui.labels]
+      now_working_as = "Clinic"
+      at = "in"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      menu = "Menu"
+      close = "Close"
+      toggle_language = "Toggle Language"
+      toggle_theme = "Toggle Dark Mode"
+      view_results = "View Results"
+      book_appointment = "Book an Appointment"
+      rights_reserved = "All rights reserved"
+
+    [params.ui.footer]
+      quick_links_title = "Quick Links"
+      contact_title = "Contact"
+      location_title = "Location"
+      hours_title = "Opening Hours"
+
+    [params.ui.booking]
+      select_service = "Select a service"
+      select_service_ar = "اختر الخدمة"
+
+  [params.home]
+    [[params.home.stats]]
+      value = "5★"
+      value_ar = "5★"
+      label = "Patient satisfaction"
+      label_ar = "رضا المرضى"
+
+    [[params.home.stats]]
+      value = "Modern"
+      value_ar = "حديثة"
+      label = "Dental technology"
+      label_ar = "تقنيات الأسنان"
+
+    [[params.home.stats]]
+      value = "Family"
+      value_ar = "عائلية"
+      label = "Care for all ages"
+      label_ar = "رعاية لكل الأعمار"
+
+    [params.ui.hours]
+      title = "Opening Hours"
+
+  [params.hours]
+    title = "Opening Hours"
+    title_ar = "مواعيد العمل"
+    items = [
+      "Saturday - Thursday: 10:00 AM - 10:00 PM",
+      "Friday: Closed"
+    ]
+    items_ar = [
+      "السبت - الخميس: 10 صباحاً - 10 مساءً",
+      "الجمعة: مغلق"
+    ]
+
+  [params.services]
+    [[params.services.items]]
+      icon = "fa-tooth"
+      title = "Checkups & Cleaning"
+      title_ar = "فحص وتنظيف الأسنان"
+      description = "Routine exams, scaling, polishing, and prevention plans."
+      description_ar = "فحص دوري، تنظيف، تلميع، وخطة وقائية."
+
+    [[params.services.items]]
+      icon = "fa-star"
+      title = "Cosmetic Dentistry"
+      title_ar = "تجميل الأسنان"
+      description = "Composite fillings, veneers consultation, and smile design guidance."
+      description_ar = "حشوات تجميلية، استشارة فينير، وإرشاد لتصميم الابتسامة."
+
+    [[params.services.items]]
+      icon = "fa-crown"
+      title = "Crowns & Bridges"
+      title_ar = "التيجان والكباري"
+      description = "Natural-looking restorations with precise fit and comfort."
+      description_ar = "تركيبات طبيعية الشكل بدقة وراحة عالية."
+
+    [[params.services.items]]
+      icon = "fa-syringe"
+      title = "Root Canal Treatment"
+      title_ar = "علاج العصب"
+      description = "Modern endodontics focused on pain control and long-term success."
+      description_ar = "علاج عصب حديث مع التحكم في الألم ونتائج طويلة المدى."
+
+    [[params.services.items]]
+      icon = "fa-truck-medical"
+      title = "Emergency Dentistry"
+      title_ar = "طوارئ الأسنان"
+      description = "Fast assessment and relief for urgent pain or broken teeth."
+      description_ar = "تقييم سريع وتخفيف الألم لحالات الطوارئ وكسر الأسنان."
+
+  [params.team]
+    [[params.team.members]]
+      name = "Dr. Michael Nabil"
+      name_ar = "د. مايكل نبيل"
+      role = "Dentist"
+      role_ar = "طبيب أسنان"
+      image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+      image_alt = "Dr. Michael Nabil"
+      bio = "Focused on comfortable, high-quality dentistry with patient-first care."
+      bio_ar = "يركّز على تقديم علاج مريح وعالي الجودة مع الاهتمام براحة المريض."
+
+  [params.reviews]
+    [[params.reviews.items]]
+      name = "A. H."
+      name_ar = "أ. ح"
+      rating = 5
+      text = "Clean clinic, gentle treatment, and clear explanation. Highly recommended."
+      text_ar = "عيادة نظيفة وعلاج لطيف وشرح واضح. أنصح بها بشدة."
+
+    [[params.reviews.items]]
+      name = "M. S."
+      name_ar = "م. س"
+      rating = 5
+      text = "Very professional and comfortable experience."
+      text_ar = "تجربة مريحة واحترافية جداً."
+
+  [params.faq]
+    [[params.faq.items]]
+      q = "Do you accept emergency cases?"
+      q_ar = "هل تستقبلون حالات الطوارئ؟"
+      a = "Yes. Call or WhatsApp first so we can prioritize your visit based on urgency."
+      a_ar = "نعم. اتصل أو تواصل عبر واتساب أولاً لتحديد أولوية الزيارة حسب الحالة."
+
+    [[params.faq.items]]
+      q = "Is treatment painful?"
+      q_ar = "هل العلاج مؤلم؟"
+      a = "We use modern anesthesia and a gentle approach to minimize discomfort."
+      a_ar = "نستخدم تخدير حديث ونهج لطيف لتقليل الألم قدر الإمكان."
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Oral Surgery",
+      "Endodontics",
+      "Prosthodontics",
+      "Cosmetic Dentistry"
+    ]
+    
+    digital = [
+      "Dental portfolio creator full coding",
+      "dental website full coding",
+      "Digital Documentation",
+      "Microsoft PowerPoint (professional)",
+      "Microsoft Excel"
+    ]
+    
+    soft = [
+      "Pediatric Patient Management",
+      "Patient Communication",
+      "Treatment Planning",
+      "Time Management",
+      "Team Leadership",
+      "Emergency Response"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University Faculty of Dentistry"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Started Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2022"
+      event = "start marketing in Dental companies"
+    
+    [[params.education.timeline]]
+      year = "2023"
+      event = "Dental companies Sales leader"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Specialized professional PowerPoint"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025-2026"
+      event = "Internship at University Hospital"
+
+    [[params.education.timeline]]
+      year = "2026"
+      event = "CEO of DentalHubs Agency"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+#الحشو التجميلى
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic"
+    category_ar = "الحشو التجميلى للاسنان الامامية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3d2515ed-c39e-4fc8-b7ea-e0bff4c97956"
+      alt = "class IV Composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/10c07190-9c8d-4503-babf-1ec32f1b97cf"
+      alt = "Anterior Teeth class IV composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
+
+#التركيبات الثابته
+  [[params.clinical_cases]]
+    enabled = true
+    category = "fixed prosthodontics"
+    category_ar = "التركيبات الثابته"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/18a41d89-0b74-485d-9423-cef550e7b0cf"
+      alt = "4 E-MAX Crowns"
+      description = "4 E-MAX Crowns"
+      alt_ar = "اربعة تركيبات ثابته للاسنان الامامية"
+      description_ar = "اربعة تركيبات ثابته للاسنان الامامية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f3970e11-f3bc-44fb-b5b2-199e881c18b7"
+      alt = "bridge for missed upper premolar"
+      description = "bridge for missed upper premolar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f89ebebc-2e58-478a-b784-24656b613ed5"
+      alt = "bridge for missed lower molar"
+      description = "bridge for missed lower molar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/109fc3e5-10a3-4bd0-b733-2cb12c72adf3"
+      alt = "bridge for missed upper 2 pmolars"
+      description = "bridge for missed upper 2 pmolars"
+      alt_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"      
+      
+      #حشو العصب
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontic Treatment"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0ecb33cb-22b5-424c-8b04-60f6178d71d9"
+      alt = "Endo lower Premolar"
+      description = "Endo lower Premolar"
+      alt_ar = "حشو عصب لضرس بالفك السفلى"
+      description_ar = "حشو عصب لضرس بالفك السفلى"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201271476215"
+    whatsapp = "+201271476215"
+    email = "michaelnabilofficial1@gmail.com"
+    instagram = "https://www.instagram.com/michaelnabilofficial/"
+    facebook = "https://www.facebook.com/Micky1000000"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    
+    [params.contact.location]
+      enabled = true
+      address = "مستشفيات جامعة الزقازيق -الزقازيق-الشرقية"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      home = "الرئيسية"
+      services = "الخدمات"
+      team = "فريق الأطباء"
+      gallery = "النتائج"
+      reviews = "آراء المرضى"
+      faq = "الأسئلة الشائعة"
+      contact = "التواصل"
+
+    [params.ar.ui.home]
+      title = "رعاية أسنان فاخرة"
+      subtitle = "تصميم مريح للعين، تقنيات حديثة، ونتائج موثوقة"
+
+    [params.ar.ui.services]
+      title = "خدمات الأسنان"
+      subtitle = "رعاية متكاملة لابتسامات كل الأعمار"
+
+    [params.ar.ui.team]
+      title = "تعرف على فريق العيادة"
+      subtitle = "خبرة، رعاية لطيفة، واهتمام براحة المريض"
+
+    [params.ar.ui.gallery]
+      title = "نتائج العلاج"
+      subtitle = "أمثلة قبل/بعد وحالات حقيقية"
+
+    [params.ar.ui.reviews]
+      title = "آراء المرضى"
+      subtitle = "تجارب حقيقية من مرضى حقيقيين"
+
+    [params.ar.ui.faq]
+      title = "الأسئلة الشائعة"
+      subtitle = "إجابات واضحة قبل زيارتك"
+
+    [params.ar.ui.contact]
+      title = "احجز موعدك"
+      subtitle = "اتصل أو واتساب أو قم بزيارة العيادة"
+      follow_me_title = "تابعنا"
+
+    [params.ar.ui.labels]
+      now_working_as = "العيادة"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      menu = "القائمة"
+      close = "إغلاق"
+      toggle_language = "تبديل اللغة"
+      toggle_theme = "الوضع الليلي"
+      view_results = "عرض النتائج"
+      book_appointment = "احجز موعداً"
+      rights_reserved = "جميع الحقوق محفوظة"
+
+    [params.ar.ui.footer]
+      quick_links_title = "روابط سريعة"
+      contact_title = "التواصل"
+      location_title = "الموقع"
+      hours_title = "مواعيد العمل"
+
+  [params.ar.hero]
+    name = "د. مايكل نبيل"
+    tagline = "طبيب أسنان"
+    graduation = "عيادة أسنان فاخرة في الزقازيق"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب أسنان"
+      clinic = "عيادة د. مايكل نبيل لطب الأسنان"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة الفم",
+      "علاج الجذور",
+      "التركيبات الثابتة والمتحركة",
+      "طب الأسنان التجميلي"
+    ]
+    
+    digital = [
+      "برمجة وإنشاء ملفات الأعمال السنية بالكامل",
+      "برمجة وإنشاء مواقع طب الأسنان بالكامل",
+      "التوثيق الرقمي",
+      "مايكروسوفت باوربوينت (احترافي)",
+      "مايكروسوفت إكسل"
+    ]
+    
+    soft = [
+      "إدارة مرضى الأطفال",
+      "التواصل مع المرضى",
+      "تخطيط العلاج",
+      "إدارة الوقت",
+      "القيادة الجماعية",
+      "الاستجابة للطوارئ"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعة الروسسية المصرية - كلية طب الأسنان"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء الدراسة في كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء العمل في التسويق لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "قائد فريق المبيعات لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "تخصص في تصميم عروض بوربوينت الاحترافية"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "فترة التدريب (الامتياز) في المستشفى الجامعي"
+
+  [[params.ar.education.timeline]]
+    event = "الرئيس التنفيذي لوكالة DentalHubs"  
+
+[params.ar.contact.location]
+  address = "مستشفيات جامعة الزقازيق -الزقازيق-الشرقية"
